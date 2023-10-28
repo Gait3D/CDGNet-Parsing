@@ -21,7 +21,7 @@ pip install tqdm opencv-python
 
 ## Download Model
 
-[**model_best.pth**](https://xxx)
+[**model_best.pth**](https://github.com/Gait3D/CDGNet-Parsing/releases/download/v0.1/model_best.pth)
 
 
 ## Input Structure
