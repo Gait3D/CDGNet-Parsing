@@ -1,3 +1,6 @@
+# CDGNet-Parsing
+This repository contains the code and model to support the generation of the parsing data required for the [project](https://gait3d.github.io/gait3d-parsing-hp/).
+
 ## Requirements
 
 Python 3.7
@@ -21,7 +24,7 @@ pip install tqdm opencv-python
 
 ## Download Model
 
-[**model_best.pth**](https://xxx)
+[**model_best.pth**](https://github.com/Gait3D/CDGNet-Parsing/releases/download/v0.1/model_best.pth)
 
 
 ## Input Structure
@@ -34,7 +37,6 @@ Please put your dataset folder and make them follow this structure:
        |-- name2.jpg
        |-- ...
        |-- namex.jpg
-        
    ```
 
 ## Configurations
@@ -71,18 +73,16 @@ sh run_inference.sh
 ## Output Structure
    ```
    |-- OUTPUT_PATH
-      |--Pred_label_results
+      |--Pred_parsing_results
          |-- name1.jpg
          |-- name2.jpg
          |-- ...
          |-- namex.jpg
-
       |--Pred_parsing_results_vis
          |-- name1.jpg
          |-- name2.jpg
          |-- ...
          |-- namex.jpg
-      
    ```
 
 
